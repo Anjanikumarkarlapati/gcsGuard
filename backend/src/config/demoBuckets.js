@@ -106,7 +106,7 @@ export const demoBuckets = [
     bindings: [
       { role: "roles/storage.objectViewer", members: ["group:t224-researchers@example.com"] },
       {
-        role: "roles/storage.objectAdmin", members: ["user:dr.sagar@example.com"],
+        role: "roles/storage.objectAdmin", members: ["user:supervisor@example.com"],
         condition: { title: "expires-2026-12-31", expression: 'request.time < timestamp("2026-12-31T00:00:00Z")' },
       },
     ],
