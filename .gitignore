@@ -1,0 +1,8 @@
+node_modules
+dist
+.env
+service-account*.json
+backend/data/
+.claude/
+*.log
+.DS_Store
